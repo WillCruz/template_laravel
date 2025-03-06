@@ -21,8 +21,9 @@ class Sidebar extends Component
             [
                 'label' => 'UI Elements',
                 'icon' => 'icon-layout',
-                'route' => 'ui.basic',
+                /* 'route' => 'ui.basic', */
                 'active' => false,
+                'controls' => 'ui.basic',
                 'sublinks' => [
                     [
                         'label' => 'Buttons',
